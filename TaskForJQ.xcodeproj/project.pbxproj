@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BAAC60671CDD2CE0002C2697 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAAC60661CDD2CE0002C2697 /* images.xcassets */; };
 		BAF7497E1CDBCBF5008D0BD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF7497D1CDBCBF5008D0BD7 /* AppDelegate.swift */; };
 		BAF749831CDBCBF5008D0BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF749811CDBCBF5008D0BD7 /* Main.storyboard */; };
-		BAF749851CDBCBF5008D0BD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF749841CDBCBF5008D0BD7 /* Assets.xcassets */; };
 		BAF749881CDBCBF5008D0BD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF749861CDBCBF5008D0BD7 /* LaunchScreen.storyboard */; };
 		BAF749A61CDBD3EC008D0BD7 /* ObjectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF749A51CDBD3EC008D0BD7 /* ObjectTableViewController.swift */; };
 		BAF749A81CDBD3F4008D0BD7 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF749A71CDBD3F4008D0BD7 /* HeaderTableViewCell.swift */; };
@@ -20,10 +20,10 @@
 /* Begin PBXFileReference section */
 		3F848BF0D9B7072C74D6541D /* Pods-TaskForJQ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskForJQ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaskForJQ/Pods-TaskForJQ.debug.xcconfig"; sourceTree = "<group>"; };
 		AA49052DDB4EF7D5B8FD058F /* Pods_TaskForJQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskForJQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAAC60661CDD2CE0002C2697 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = images.xcassets; path = TaskForJQ/images.xcassets; sourceTree = "<group>"; };
 		BAF7497A1CDBCBF5008D0BD7 /* TaskForJQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskForJQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF7497D1CDBCBF5008D0BD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF749821CDBCBF5008D0BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAF749841CDBCBF5008D0BD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAF749871CDBCBF5008D0BD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAF749891CDBCBF5008D0BD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAF749A31CDBD3E2008D0BD7 /* JQApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JQApi.swift; sourceTree = "<group>"; };
@@ -58,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				BAF749811CDBCBF5008D0BD7 /* Main.storyboard */,
+				BAAC60661CDD2CE0002C2697 /* images.xcassets */,
 				BAF7497C1CDBCBF5008D0BD7 /* TaskForJQ */,
 				BAF7497B1CDBCBF5008D0BD7 /* Products */,
 				8E89FAC50155CD960CB3A5FD /* Pods */,
@@ -80,7 +81,6 @@
 				BAF749AD1CDC24B7008D0BD7 /* Model */,
 				BAF749AC1CDC24B5008D0BD7 /* View */,
 				BAF749AB1CDC24B1008D0BD7 /* Controller */,
-				BAF749841CDBCBF5008D0BD7 /* Assets.xcassets */,
 				BAF749861CDBCBF5008D0BD7 /* LaunchScreen.storyboard */,
 				BAF749891CDBCBF5008D0BD7 /* Info.plist */,
 				BAF749AA1CDBE797008D0BD7 /* Bridge.h */,
@@ -181,8 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAAC60671CDD2CE0002C2697 /* images.xcassets in Resources */,
 				BAF749881CDBCBF5008D0BD7 /* LaunchScreen.storyboard in Resources */,
-				BAF749851CDBCBF5008D0BD7 /* Assets.xcassets in Resources */,
 				BAF749831CDBCBF5008D0BD7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

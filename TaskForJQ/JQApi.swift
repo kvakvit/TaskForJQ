@@ -44,7 +44,7 @@ class JQApi {
         for item in json["items"].arrayValue {
 
             
-            objects.append(Object(id: item["id"].intValue , kindSale: item["saleOffer"]["kind"].stringValue, price: item["saleOffer"]["multiCurrencyPrice"]["rub"].intValue, rentPrice: item["rentOffer"]["multiCurrencyPrice"]["rub"].intValue, kind: item["kind"].stringValue, area: item["specification"]["area"].intValue, bedrooms: item["specification"]["bedrooms"].intValue, condition: item["specification"]["condition"].stringValue, updateAt: item["updatedAt"].stringValue , location: item["location"]["settlementName"].stringValue, capture: item["images"][0]["url"].stringValue))
+            objects.append(Object(id: item["id"].intValue , kindSale: item["saleOffer"]["kind"].stringValue, price: item["saleOffer"]["multiCurrencyPrice"]["rub"].intValue, rentPrice: item["rentOffer"]["multiCurrencyPrice"]["rub"].intValue, kind: item["kind"].stringValue, area: item["specification"]["area"].intValue, bedrooms: item["specification"]["bedrooms"].intValue, condition: item["specification"]["condition"].stringValue, updateAt: item["updatedAt"].stringValue , location: item["location"]["settlementName"].stringValue, capture: item["images"][0]["url"].stringValue+"-256"))
             
         }
         

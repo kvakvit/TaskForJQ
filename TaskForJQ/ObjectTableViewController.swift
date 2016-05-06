@@ -19,7 +19,7 @@ class ObjectTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.estimatedRowHeight = 400
+        tableView.estimatedRowHeight = 600
         tableView.rowHeight = UITableViewAutomaticDimension
 
 
