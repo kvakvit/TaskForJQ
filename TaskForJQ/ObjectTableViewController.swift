@@ -45,6 +45,7 @@ class ObjectTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return objects.count
     }
+    
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -102,6 +103,12 @@ class ObjectTableViewController: UITableViewController {
             }
             
         }
+    }
+    
+    override func viewWillTransitionToSize(size: CGSize, withTransitionCoordinator coordinator: UIViewControllerTransitionCoordinator) {
+        
+        tableView.reloadData()
+        
     }
     
 
